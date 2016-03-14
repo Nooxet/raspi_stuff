@@ -1,6 +1,6 @@
 #!/bin/bash
 
-log="/home/pi/scripts/mediaplayer.errlog"
+log="/home/pi/mediaplayer.errlog"
 
 # fetch all arguments, in case of filename with spaces
 filename=$@
