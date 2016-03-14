@@ -1,2 +1,4 @@
 # raspi_stuff
-Random stuff for the Raspberry Pi
+Random scripts, programs and daemons for the Raspberry Pi.
+
+Running Raspbian Jessie on a raspi model 1 B.
