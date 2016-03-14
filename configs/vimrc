@@ -1,0 +1,45 @@
+" A nice config for vim
+"
+" by Nox
+"
+
+" standard
+set encoding=utf8 
+set fileencodings=utf-8
+set nocompatible	" disable compat. for VI
+set mouse=a			" activate mouse control
+syntax on
+
+" numbers and ruler
+set number			" numbered lines
+set ruler			" show ruler
+
+" good stuff
+set showmatch		" highlight matching braces
+
+" indentation
+set tabstop=4
+set shiftwidth=4
+"set expandtab		" use spaces instead of tabs
+set autoindent
+"set smartindent		" intelligent indent
+
+" searching
+set hlsearch		" search highlight
+set ignorecase		" case insensitive
+
+" magic for c
+autocmd FileType c set tabstop=8		" just do it...
+autocmd FileType c set shiftwidth=8		" or Torvalds will f**k u up
+autocmd FileType c set cindent
+
+" magic for c++
+autocmd FileType cpp set smartindent
+
+" magic for python
+autocmd FileType python set smartindent 
+autocmd FileType python set cinwords=if,elif,else,for,while,try,except,finally,def,class
+
+" magic for vhdl
+autocmd FileType vhd set smartindent
+autocmd FileType vhd set cinwords=if,else,loop,is
